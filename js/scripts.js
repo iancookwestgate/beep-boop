@@ -10,16 +10,16 @@
 var numRead = function(yourNum){
   var newLife = "";
   var i;
-  for (var i=0; i < parseInt(yourNum); i++){
+  for (var i=0; i < parseInt(yourNum); i++) {
 
     if (i == 3) {
       i = " I'm sorry, Dave. I'm afraid I can't do that. ";
     } else if (i == 2) {
       i = " Boop! ";
     } else if (i == 1) {
-      i = " Beep! ";
+      i = " Beep! "
     }
-      newLife+= i;
+      newLife += i;
     }
 
   return newLife;
