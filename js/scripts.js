@@ -2,13 +2,13 @@ var numRead = function(yourNum){
   var newLife = "";
   var numArray = yourNum.split("");
 
-  for (var i=0; i <numArray.length; i++){
-    if(numArray[i] == 3) {
-      numArray[i] = "I'm sorry, Dave. I'm afraid I can't do that.";
-    } else if(numArray[i] == 2){
-    numArray[i] = "Boop!";
-    } else if(numArray[i] == 1){
-      numArray[i] = "Beep!";
+  for (var i=0; i < numArray.length; i++){
+    if (numArray[i] == 3) {
+      numArray[i] = " I'm sorry, Dave. I'm afraid I can't do that. ";
+    } else if (numArray[i] == 2) {
+    numArray[i] = " Boop! ";
+    } else if (numArray[i] == 1) {
+      numArray[i] = " Beep! ";
     }
       newLife+=numArray[i];
     }
