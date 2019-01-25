@@ -12,3 +12,7 @@ button {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+span {
+  text-shadow: rgb(255, 0, 0);
+}
