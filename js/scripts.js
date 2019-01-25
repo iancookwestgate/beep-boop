@@ -4,11 +4,11 @@ var complete = function(userNum){
   for (var i = 0; i <= userNum; i++) {
 
     if (i.toString().includes("3")) {
-      result.push(" I'm sorry, Dave. I'm afraid I can't do that. ");
+      result.push(" I'm sorry, Dave. I'm afraid I can't do that");
     } else if (i.toString().includes("2")) {
-      result.push(" Boop! ");
+      result.push(" Boop");
     } else if (i.toString().includes("1")) {
-      result.push(" Beep! ");
+      result.push(" Beep");
     } else
       result.push(" " +i);
     }
