@@ -7,7 +7,7 @@ var complete = function(userNum){
       result.push(" I'm sorry, Dave. I'm afraid I can't do that. ");
     } else if (i.toString().includes("2")) {
       result.push(" Boop! ");
-    } else if (i.toString().includes("2")) {
+    } else if (i.toString().includes("1")) {
       result.push(" Beep! ");
     } else
       result.push(" " +i);
