@@ -2,7 +2,7 @@ var numRead = function(yourNum){
   var newLife = "";
   var numArray = yourNum.split("");
 
-  for (var i=0; i < numArray.length; i++){
+  for (var i=0; i < 10; i++){
     if (numArray[i] == 3) {
       numArray[i] = " I'm sorry, Dave. I'm afraid I can't do that. ";
     } else if (numArray[i] == 2) {
