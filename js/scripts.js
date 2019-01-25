@@ -16,30 +16,21 @@
 // };
 
 var numRead = function(yourNum){
-  var newLife = "";
+  var result = [];
 
+  for (var i = 0; i <= yourNum; i++) {
 
-  for (var i = 0; i < parseInt(yourNum); i++) {
-    do {
-      i = " I'm sorry, Dave. I'm afraid I can't do that. ";
-      i++;
-    } while (i == 3);
-
-    do {
-      i = " I'm sorry, Dave. I'm afraid I can't do that. ";
-      i++;
-    } while (i == 2);
-
-    do {
-      i = " I'm sorry, Dave. I'm afraid I can't do that. ";
-      i++;
-    } while (i == 1);
-
-      newLife += i;
+    if (i.toString().includes("3")) {
+      result.push(" I'm sorry, Dave. I'm afraid I can't do that. ");
+    } else if (i.toString().includes("2")) {
+      result.push("Boop!");
+    } else if (i.toString().includes("2")) {
+      result.push("Beep!");
+    } else
+      result.push (" " +i);
     }
 
-
-  return newLife;
+  return result;
 };
 
 
