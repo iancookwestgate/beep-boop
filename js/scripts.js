@@ -1,11 +1,30 @@
-var numRead = function(yourNum) {
-  var text = "";
+// var numRead = function(yourNum) {
+//   var text = "";
+//   var i;
+//   for (var i = 0; i < parseInt(yourNum); i++) {
+//     text += "The number is " + i;
+//   }
+//   return text;
+// };
+
+var numRead = function(yourNum){
+  var newLife = "";
   var i;
-  for (var i = 0; i < parseInt(yourNum); i++) {
-    text += "The number is " + i;
-  }
-  return text;
+  for (var i=0; i < parseInt(yourNum); i++){
+
+    if (i == 3) {
+      i = " I'm sorry, Dave. I'm afraid I can't do that. ";
+    } else if (i == 2) {
+      i = " Boop! ";
+    } else if (i == 1) {
+      i = " Beep! ";
+    }
+      newLife+= i;
+    }
+
+  return newLife;
 };
+
 
 // var numRead = function(yourNum){
 //   var newLife = "";
