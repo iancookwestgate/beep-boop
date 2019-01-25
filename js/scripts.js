@@ -3,10 +3,10 @@
 
 
 $(document).ready(function(){
-  $("form#beepBoop").submit(function(){
-    var userInput = $("input#beepBoop").val();
+  $("form#beepBoop").submit(function(event){
+    var userInput = $("input#userInput").val();
 
-    $(".beepBoop").append(userInput + "<br>");
+    $("#output").text(userInput);
 
     event.preventDefault();
   });
