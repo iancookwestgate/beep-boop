@@ -1,0 +1,16 @@
+.jumbotron {
+  margin-top: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+#output {
+  margin-top: 200px;
+}
