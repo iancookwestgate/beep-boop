@@ -1,8 +1,11 @@
 var numRead = function(yourNum) {
-  for (var i = 0; i < yourNum; i++) {
-  return 1;
+  var text = "";
+  var i;
+  for (var i = 0; i < parseInt(yourNum); i++) {
+    text += "The number is " + i;
   }
-}
+  return text;
+};
 
 // var numRead = function(yourNum){
 //   var newLife = "";
