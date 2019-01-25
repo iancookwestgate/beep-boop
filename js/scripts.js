@@ -10,7 +10,7 @@ var complete = function(userNum){
     } else if (i.toString().includes("1")) {
       result.push(" Beep");
     } else
-      result.push(" " +i);
+      // result.push(" " +i);
     }
 
   return result;
