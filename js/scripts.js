@@ -18,17 +18,26 @@
 var numRead = function(yourNum){
   var newLife = "";
 
-  if (i == 3) {
-    i = " I'm sorry, Dave. I'm afraid I can't do that. ";
-  } else if (i == 2) {
-    i = " Boop! ";
-  } else if (i == 1) {
-    i = " Beep! "
-  }
 
   for (var i = 0; i < parseInt(yourNum); i++) {
+    do {
+      i = " I'm sorry, Dave. I'm afraid I can't do that. ";
+      i++;
+    } while (i == 3);
+
+    do {
+      i = " I'm sorry, Dave. I'm afraid I can't do that. ";
+      i++;
+    } while (i == 2);
+
+    do {
+      i = " I'm sorry, Dave. I'm afraid I can't do that. ";
+      i++;
+    } while (i == 1);
+
       newLife += i;
     }
+
 
   return newLife;
 };
