@@ -36,7 +36,7 @@ Spec: Numbers that do not meet any of the prior criteria are passed through and 
 2. Use a terminal of your choice (I use Git Bash) to access the webpage and its files by inputting: "git clone {the above clone link}"
 3. Open the folder you receive and open the index.html link in the web browser of your choice (I use Google Chrome).
 
-Alternatively, click this gh-pages link to view it directly in the web browser of your choice: 
+Alternatively, click this gh-pages link to view it directly in the web browser of your choice: https://iwestgate931.github.io/beep-boop/
 
 ## Known Bugs
 * No known bugs at this time.
